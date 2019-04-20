@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@sindresorhus/slugify": "0.9.1",
+    "stylus-loader": "latest",
     "vue": "^2.5.22",
     "vue-router": "latest"
   },

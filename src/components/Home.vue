@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>HelloWorld</h1>
+    <h1>Home</h1>
     <router-link to="/about">About</router-link>&nbsp;|
     <router-link to="/faq">FAQ</router-link>
   </div>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "HelloWorld"
+  name: "Home"
 };
 </script>
 

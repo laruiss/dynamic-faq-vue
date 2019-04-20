@@ -1,15 +1,19 @@
 import Vue from "vue";
 import App from "./App.vue";
 import Router from "vue-router";
+
+import "./css/content.styl";
+
 import About from "./components/About";
-import Faq from "./components/Faq";
-import HelloWorld from "./components/HelloWorld";
+import faqContent from "./components/faq-content";
+import Home from "./components/Home";
+import getListComponent from "./components/Faq";
 
 const routes = [
   {
     path: "/",
     name: "home",
-    component: HelloWorld
+    component: Home
   },
   {
     path: "/about",
@@ -19,7 +23,7 @@ const routes = [
   {
     path: "/faq",
     name: "faq",
-    component: Faq
+    component: getListComponent("Faq", faqContent)
   }
 ];
 
