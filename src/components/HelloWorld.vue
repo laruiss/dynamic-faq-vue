@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>HelloWorld</h1>
     <router-link to="/about">About</router-link>&nbsp;|
-    <router-link to="/faq">FAQ</router-link>hetsrn
+    <router-link to="/faq">FAQ</router-link>
   </div>
 </template>
 
