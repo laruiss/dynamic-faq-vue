@@ -1,13 +1,13 @@
 import Vue from "vue";
-import App from "./App.vue";
 import Router from "vue-router";
 
-import "./css/content.styl";
+import "@/css/content.styl";
 
-import About from "./components/About";
-import faqContent from "./components/faq-content";
-import Home from "./components/Home";
-import getListComponent from "./components/Faq";
+import App from "@/App.vue";
+import About from "@/components/About.vue";
+import faqContent from "@/components/faq-content";
+import Home from "@/components/Home.vue";
+import getListComponent from "@/components/Faq";
 
 const routes = [
   {

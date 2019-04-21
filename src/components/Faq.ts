@@ -1,6 +1,12 @@
 import Vue from "vue";
 
-export default function getListComponent(name, content) {
+interface Question {
+  id: string;
+  body: string;
+  title: string;
+}
+
+export default function getListComponent(name: string, content: Question[]) {
   for (const question of content) {
     Vue.component(question.id, {
       template: `
